@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+/*class*/ 
+
+.essencial{
+    text-align: center;
+    font-size: 40px ;
+    color: white;
+    background-color: red;
+}
+
+.sale{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+}
+
+.invierno{
+    font-size: 40px;
+    color:white;
+    background-color:black;
+    }
+    .Negrita{
+        font-weight: bold;
+    }
+
+.footer2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.footer3{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.footer4{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.footer5{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.imagenuno{
+    border-left: solid 10px black;
+border-top: solid 10px black;
+border-right: solid 10px black;
+border-bottom: solid 10px black;
+}
+.video{
+    margin: 20px 25px;
+}
+.Productos{
+    color: white;
+    background-color: black;
+    font-weight: normal;
+    font-style: italic;
+}
+.sale{
+    color: white;
+    background-color: black;
+    font-size:large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+.contactanos{
+    color:white;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+}
+.sale2{
+    color: white;
+    background-color: red;
+}
+.showroom1{
+    color: white;
+    background-color: black;
+}
+.showroom2{
+    color: cadetblue;
+    background-color: white;
+}
+    /*tipografias*/
+
+    @font-face {
+        font-family: "NunitoSans-Italic";
+        src: url("..fuente/NunitoSans-Italic.ttf");
+    }
+    .newsletter{
+        color: white;
+        background-color: black;
+    }
+ 
+body{
+    font-family: "NunitoSans-Italic";
+}
+ 
+/*estilos generales*/
+
+
+ footer{
+     text-align: center;
+     font-style: italic;
+ }
+ /*box modeling*/
+ ul{
+     display: inline;
+ }
+
+/*grid*/
+nav{
+    background-color: black;
+    height: 30vh;
+    
+}
+li{
+    background-color: white;
+    margin: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+}
