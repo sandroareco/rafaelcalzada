@@ -85,6 +85,12 @@ border-bottom: solid 10px black;
     color: cadetblue;
     background-color: white;
 }
+.transicion{
+    transition: width 1s, height 2s;
+}
+.transicion:hover{
+    width: 100px;
+}
     /*tipografias*/
 
     @font-face {
