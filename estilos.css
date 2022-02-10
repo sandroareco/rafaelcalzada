@@ -81,10 +81,6 @@ border-bottom: solid 10px black;
     color: white;
     background-color: black;
 }
-.showroom2{
-    color: cadetblue;
-    background-color: white;
-}
 .transicion{
     transition: width 1s, height 2s;
 }
@@ -132,5 +128,4 @@ li{
 .grid{
     display: grid;
     grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px;
 }
